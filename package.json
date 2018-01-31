@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "pretest": "eslint src",
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "test:watch": "mocha --watch",
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   },
   "homepage": "https://github.com/cesar-valdez/jquery-full-bg#readme",
   "devDependencies": {
+    "codecov": "^3.0.0",
     "eslint": "4.16.0",
     "expect.js": "^0.3.1",
     "jquery": "^3.3.1",
@@ -35,13 +38,13 @@
   "pre-commit": [
     "test"
   ],
-  "nyc":{
+  "nyc": {
     "check-coverage": true,
     "branches": 100,
     "functions": 100,
     "lines": 100,
     "statements": 100,
-    "reporter":[
+    "reporter": [
       "text",
       "lcov"
     ]

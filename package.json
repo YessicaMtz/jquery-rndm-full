@@ -1,5 +1,5 @@
 {
-  "name": "jquery-full-bg",
+  "name": "jquery-rndm-full",
   "version": "1.0.0",
   "description": "jQuery plugin para cambiar el fondo de imágenes en tamaño entero y forma aleatoria.",
   "main": "src/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cesar-valdez/jquery-full-bg.git"
+    "url": "git+https://github.com/yessicamtz/jquery-rndm-full.git"
   },
   "keywords": [
     "jquery",
@@ -22,9 +22,9 @@
   "author": "Cesar Valdez <cesar.valdez1095@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cesar-valdez/jquery-full-bg/issues"
+    "url": "https://github.com/yessicamtz/jquery-rndm-full/issues"
   },
-  "homepage": "https://github.com/cesar-valdez/jquery-full-bg#readme",
+  "homepage": "https://github.com/yessicamtz/jquery-rndm-full#readme",
   "devDependencies": {
     "codecov": "^3.0.0",
     "dotenv": "^5.0.0",

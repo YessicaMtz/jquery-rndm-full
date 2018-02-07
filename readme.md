@@ -2,13 +2,13 @@
 **Query pugin photo Random**
 #### Installation
 ```js
-npm install --save rndm-Full
+npm install --save jquery-rndm-full
 ````
 
 ##### You need to load jquery first
 ```html
 <script src="/mode_module/jquery/dist/jquery.js"></script>
-<script src="/mode_module/rndmFull/src/index.js"></script>
+<script src="/mode_module/jquery-rndm-full/src/index.js"></script>
 ```
 Before using pluging, you need to register as develop then you must put the **CLIENT_ID** to be able to get photos from unisplash API.
 

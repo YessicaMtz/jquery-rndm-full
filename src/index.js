@@ -1,6 +1,6 @@
 /**
  * jquery-rndm-full
- * @version 1.0.0
+ * @version 1.0.1
  * @author Yessi Mtz
  * @license Mit
  **/

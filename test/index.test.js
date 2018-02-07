@@ -42,8 +42,6 @@ describe ('jquery-rndm-full', function(){
         expect($section.css('backgroundColor')).to.be('black');
     });
 
-
-
     it('should set a random image from unsplash', function(){
         window.rndmFull.setup(CLIENT_ID);
         return $section.rndmFull({
@@ -57,15 +55,15 @@ describe ('jquery-rndm-full', function(){
             });
     });
 
-    /* it('should set a random image from unsplash', function(){
-        window.rndmFull.setup('123');
+    it('should set a random image from unsplash', function(){
+        window.rndmFull.setup(CLIENT_ID);
         return $section.rndmFull({
             backgroundImage: 'path/imagen.jpg',
         })
             .catch(function($this){
                 expect($this.css('backgroundImage')).to.contain('path/imagen.jpg');
             });
-    }); */
+    });
 });
 
 
